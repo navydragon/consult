@@ -5259,11 +5259,11 @@ body:not(.onepage-doc) .body_fixed #font-switcher {
   flex-wrap: wrap;
 }
 .community-post .post-content .author-avatar {
-  width: 40px;
+  width: 60px;
   margin-right: 25px;
-  border-radius: 50%;
-  overflow: hidden;
-  height: 40px;
+  //border-radius: 50%;
+  //overflow: hidden;
+  height: 60px;
 }
 .community-post .post-content .author-avatar.forum-icon {
   border-radius: 0;
@@ -5272,7 +5272,11 @@ body:not(.onepage-doc) .body_fixed #font-switcher {
   padding: 2px;
 }
 .community-post .post-content .author-avatar img {
-  max-width: 40px;
+  width: 60px;
+  margin-right: 25px;
+ //border-radius: 50%;
+  //overflow: hidden;
+  height: 60px;
 }
 @media (max-width: 667px) {
   .community-post .post-content .author-avatar {

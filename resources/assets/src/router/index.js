@@ -34,6 +34,10 @@ const router = new Router({
       meta: {auth: false}
     },
     {
+      path: '/categories/:category',
+      component: () => import('@/components/Category'),
+    },
+    {
       path: 'categories',
       component: () => import('@/components/Categories'),
       meta: {auth: false}

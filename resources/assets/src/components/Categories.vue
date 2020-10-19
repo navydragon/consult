@@ -15,7 +15,7 @@
                             </div>
                             <div class="entry-content">
                                 <h3 class="post-title" @click.prevent="$router.push({ path: 'categories/'+category.id })">{{category.name}}</h3>
-                                <small>Материалов: .. , последнее обновление:</small>
+                                <p>Материалов: {{category.mat_count}} </p>
                             </div>
                         </div>
                         <div class="post-meta-wrapper">
@@ -48,6 +48,9 @@ export default {
     return{
     categories:[]
     }
+  },
+  methods:{
+   
   },
   mounted()
   {

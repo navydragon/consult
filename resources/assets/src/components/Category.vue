@@ -2,13 +2,13 @@
   <div id="post" class="documentation_info">
       <article class="documentation_body" id="documentation">
           <div class="shortcode_title">
-              <h1>Учебные материалы</h1>
-              <p>Всего материалов в базе знаний: <strong>{{materials.length}}</strong></p>
-              <p>Для просмотра нажмите на кнопку «Просмотреть»</p>
-          </div>
-          <div class="row">
+              <h2>{{category.name}}</h2>
+              <hr>
+              <h4>Материалы ({{category.materials.length}})</h4>
+              <p v-if="category.materials.length == 0"><em>Пока не добавлено материалов, относящихся к данному виду деятельности.</em></p>
+              <div v-if="category.materials.length != 0" class="row">
               <div class="community-posts-wrapper w-100">
-                    <div v-for="material in materials" :key="'mat'+material.id"  class="community-post wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <div v-for="material in category.materials" :key="'mat'+material.id"  class="community-post wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                         <div class="post-content">
                             <div class="author-avatar">
                                 <b-img :src="material.type.icon_url" rounded="circle" alt="Circle image"></b-img>
@@ -27,8 +27,13 @@
 
                 </div>
           </div>
+          </div>
+          <div class="row">
+             
+          </div>
           <div class="border_bottom"></div>
       </article>
+      
       <div class="border_bottom"></div>
       
   </div>
@@ -36,26 +41,22 @@
 
 
 <script>
-
 export default {
-  name: 'materials',
+  name: 'category',
   metaInfo: {
-    title: 'Учебные материалы'
-  },
-  components: {
-    
+    title: 'Вид деятельности'
   },
   data() 
   { 
     return{
-    materials:[]
+    category:{materials:[]}
     }
   },
   mounted()
   {
-    axios.get('/materials')
+    axios.get('/categories/'+this.$route.params.category)
     .then((response) => {
-      this.materials = response.data;
+      this.category = response.data;
     })
   }
 }

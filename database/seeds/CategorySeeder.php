@@ -49,35 +49,35 @@ class CategorySeeder extends Seeder
         ]);
         DB::table('categories')->insert([
             'name' => 'Оформление земельных участков',
-            'icon_url' => '',
+            'icon_url' => 'img/cat/10.png',
         ]);
         DB::table('categories')->insert([
             'name' => 'Порядок приемки проектных работ, внесения изменений в проектную документацию ',
-            'icon_url' => '',
+            'icon_url' => 'img/cat/11.png',
         ]);
         DB::table('categories')->insert([
             'name' => 'Порядок переустройства инженерных сетей. Заключение договоров о компенсации ',
-            'icon_url' => '',
+            'icon_url' => 'img/cat/12.png',
         ]);
         DB::table('categories')->insert([
             'name' => 'Оформление и утверждение документации по планировке территории, кадастровые работы. Техническая паспортизация объектов.',
-            'icon_url' => '',
+            'icon_url' => 'img/cat/13.png',
         ]);
         DB::table('categories')->insert([
             'name' => 'Оценка земельных участков и объектов недвижимости на них, подлежащих изъятию.',
-            'icon_url' => '',
+            'icon_url' => 'img/cat/14.png',
         ]);
         DB::table('categories')->insert([
             'name' => 'Типовые нарушения, выявляемые контролирующими органами при проверках.',
-            'icon_url' => '',
+            'icon_url' => 'img/cat/15.png',
         ]);
         DB::table('categories')->insert([
             'name' => 'Особенности содержания, ремонта, проектирования и т.д.',
-            'icon_url' => '',
+            'icon_url' => 'img/cat/16.png',
         ]);
         DB::table('categories')->insert([
             'name' => 'Прочие виды деятельности',
-            'icon_url' => '',
+            'icon_url' => 'img/cat/17.png',
         ]);
         
     }

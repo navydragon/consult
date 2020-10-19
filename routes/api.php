@@ -17,6 +17,8 @@ Route::get('/npas', 'NpaController@get_npas');
 Route::get('/npas/{npa}', 'NpaController@get_npa');
 
 Route::get('/categories', 'CategoryController@get_categories');
+Route::get('/categories/{category}', 'CategoryController@get_category');
+
 Route::get('/materials', 'MaterialController@get_materials');
 
 Route::get('/get_last_update', 'MaterialController@get_last_update');

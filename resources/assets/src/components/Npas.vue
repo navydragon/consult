@@ -10,7 +10,7 @@
                     <div v-for="npa in npas" :key="'npa'+npa.id"  class="community-post wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                         <div class="post-content">
                             <div class="author-avatar">
-                                <img src="img/home_support/cp1.png" alt="community post">
+                                <img src="img/law-book.png" alt="community post">
                             </div>
                             <div class="entry-content">
                                 <h3 class="post-title" @click.prevent="$router.push({ path: 'npas/'+npa.id })">{{npa.name}}</h3>

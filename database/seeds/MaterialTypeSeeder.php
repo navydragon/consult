@@ -10,14 +10,14 @@ class MaterialTypeSeeder extends Seeder
      * @return void
      */
     public function run()
-    {
+    {   
         DB::table('material_types')->insert([
             'name' => 'Презентация',
             'icon_url' => 'img/mt/preza.png'
         ]);
         DB::table('material_types')->insert([
             'name' => 'Запись вебинара',
-            'icon_url' => 'img/mt/preza.png'
+            'icon_url' => 'img/mt/webinar.png'
         ]);
         DB::table('material_types')->insert([
             'name' => 'Документ',

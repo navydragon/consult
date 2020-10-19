@@ -1,7 +1,7 @@
 
 <template>
 <div>
-  <b-embed type="iframe" src="https://forms.sendpulse.com/33e3e55bcf/">
+  <b-embed type="iframe" src="https://educationbkad.emiit.ru/iop2/subscribe.html">
   </b-embed>
 </div>
 </template>
