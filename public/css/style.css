@@ -394,9 +394,9 @@ ul.list-style li:last-child {
 }
 
 .doc_border_btn {
-  border: 2px solid #79ccde;
+  border: 2px solid #000;
   border-radius: 4px;
-  color: #10b3d6;
+  color: #000;
   font-size: 14px;
   font-weight: 500;
   background: #f8fdfe;
@@ -421,8 +421,8 @@ ul.list-style li:last-child {
 }
 .doc_border_btn:hover {
   box-shadow: 0 10px 20px 0 rgba(12, 118, 142, 0.2);
-  background: #10b3d6;
-  border-color: #10b3d6;
+  background: #f7b429 ;
+  border-color: #f7b429 ;
   color: #fff;
 }
 .doc_border_btn:hover i {

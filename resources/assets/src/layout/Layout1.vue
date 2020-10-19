@@ -382,19 +382,19 @@
             </div>
         </section> -->
 
-        <section class="page_breadcrumb">
+        <section class="page_breadcrumb" style="background-color:#000; ">
             <div class="container custom_container">
                 <div class="row">
                     <div class="col-sm-7">
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="/">Консультационный центр</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">База знаний</li>
+                                <li class="breadcrumb-item" style="color:white;"><a href="/" style="color:white;">Консультационный центр</a></li>
+                                <li class="breadcrumb-item active" style="color:white;" aria-current="page">База знаний</li>
                             </ol>
                         </nav>
                     </div>
                     <div class="col-sm-5">
-                        <a href="#" class="date"><i class="icon_clock_alt"></i>Последнее обновление ...</a>
+                        <span class="date" style="color:white;"><i class="icon_clock_alt"></i>Последнее обновление 19.10.2020</span>
                     </div>
                 </div>
             </div>
@@ -406,12 +406,12 @@
                   <div class="col-lg-3 doc_mobile_menu display_none">
                     <app-layout-sidenav />
                   </div>
-                  <div class="col-lg-7 col-md-8">
+                  <div class="col-lg-9 col-md-9">
                       <router-view />
-                  </div>
-                    <div class="col-lg-2 col-md-4 doc_right_mobile_menu">
+                  </div>                  
+                    <!-- <div class="col-lg-2 col-md-4 doc_right_mobile_menu">
                         <app-layout-right />
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
