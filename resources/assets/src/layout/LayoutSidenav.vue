@@ -7,19 +7,19 @@
       <div class="scroll">
           <ul class="list-unstyled nav-sidebar">
               <li class="nav-item">
-                  <router-link to="/" class="nav-link"><img src="img/side-nav/home.png" alt="">Описание</router-link>
+                  <router-link to="/" class="nav-link"  onmouseover="this.style.color='#f7b429';" onmouseout="this.style.color='#1d2746';"><img src="img/side-nav/1_2.png" alt="">Описание</router-link>
               </li>
               <li class="nav-item">
-                  <router-link to="/materials" class="nav-link"><img src="img/side-nav/book.png" alt="">Материалы базы знаний</router-link>
+                  <router-link to="/materials" class="nav-link" onmouseover="this.style.color='#f7b429';" onmouseout="this.style.color='#1d2746';"><img src="img/side-nav/2.png" alt="">Материалы базы знаний</router-link>
               </li>
               <li class="nav-item">
-                  <router-link to="/categories" class="nav-link"><img src="img/side-nav/document.png" alt="briefcase">Виды деятельности</router-link>
+                  <router-link to="/categories" class="nav-link" onmouseover="this.style.color='#f7b429';" onmouseout="this.style.color='#1d2746';"><img src="img/side-nav/3.png" alt="briefcase">Виды деятельности</router-link>
               </li>
               <li class="nav-item">
-                  <router-link to="/npas" class="nav-link"><img src="img/side-nav/document2.png" alt="">Нормативно-правовые акты</router-link>
+                  <router-link to="/npas" class="nav-link" onmouseover="this.style.color='#f7b429';" onmouseout="this.style.color='#1d2746';"><img src="img/side-nav/4.png" alt="">Нормативно-правовые акты</router-link>
               </li>
               <li class="nav-item">
-                   <router-link to="/new_question" class="nav-link"><img src="img/home_one/chat_mini.png" alt="">Задать вопрос</router-link>
+                   <router-link to="/new_question" class="nav-link" onmouseover="this.style.color='#f7b429';" onmouseout="this.style.color='#1d2746';"><img src="img/side-nav/5.png" alt="">Задать вопрос</router-link>
               </li>
               <!--
               <li class="nav-item">
@@ -27,7 +27,7 @@
               </li>
               -->
               <li class="nav-item">
-                   <router-link to="/sign_didgest" class="nav-link"><img src="img/side-nav/smiles.png" alt="">Подписаться на обновления</router-link>
+                   <router-link to="/sign_didgest" class="nav-link" onmouseover="this.style.color='#f7b429';" onmouseout="this.style.color='#1d2746';"><img src="img/side-nav/4.png" alt="">Подписаться на обновления</router-link>
               </li>
           </ul>
       </div>

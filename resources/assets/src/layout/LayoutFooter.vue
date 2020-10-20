@@ -2,7 +2,7 @@
   <footer class="simple_footer" style="background: linear-gradient(#000, #333333); ">
             <div class="container">
                 <div class="footer__support">
-                  <p style="color:white;">Техническая поддержка портала</p>
+                  <p style="color:white;">Техническая поддержка портала (Российский Университет Транспорта (МИИТ))</p>
                   <p style="color:white;"><i class="fa fa-phone mr-2" aria-hidden="true"></i>+7(495)374-75-27</p>
                   <p style="color:white;"><i class="fa fa-envelope  mr-2" aria-hidden="true"></i>admin@emiit.ru</p>
                 </div>

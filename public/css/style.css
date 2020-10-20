@@ -48,14 +48,14 @@ a {
 a:hover, a:focus {
   text-decoration: none;
   outline: none;
-  color: #10b3d6;
+  color: #f7b429;
 }
 
 body {
   line-height: 24px;
   font-size: 16px;
   height: 100%;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #6b707f;
 }
@@ -66,7 +66,7 @@ body {
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #1d2746;
 }
 
@@ -221,7 +221,7 @@ ul.list-style li:last-child {
   margin: 2px;
   font-weight: 400;
   font-size: 0.85rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 0.6rem;
@@ -568,7 +568,7 @@ ul.list-style li:last-child {
   font-size: 14px;
 }
 .header_top .menu li a:hover {
-  color: #10b3d6;
+  color: #f7b429;
 }
 .header_top .right-menu {
   justify-content: flex-end;
@@ -689,7 +689,7 @@ ul.list-style li:last-child {
 .menu > .nav-item.submenu .dropdown-menu .nav-item .nav-link {
   padding: 0;
   white-space: nowrap;
-  font: 400 14px/16px "Roboto", sans-serif;
+  font: 400 14px/16px "Montserrat", sans-serif;
   color: #6b707f;
   transition: color 0.2s linear;
   position: relative;
@@ -822,7 +822,7 @@ ul.list-style li:last-child {
   font-weight: 400;
   color: #fff;
   position: relative;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .menu > .nav-item.submenu.mega_menu .dropdown-menu .tabContent .tab-pane .tab_list li a:before {
   content: "";
@@ -2225,7 +2225,7 @@ ul.list-style li:last-child {
   color: #878EA6;
 }
 .breadcrumb .breadcrumb-item a:hover {
-  color: #10b3d6;
+  color: #f7b429;
 }
 .breadcrumb .breadcrumb-item + .breadcrumb-item:before {
   content: "5";
@@ -2439,7 +2439,7 @@ ul.list-style li:last-child {
   margin-right: 15px;
 }
 .tag_list li a:hover {
-  color: #10b3d6;
+  color: #f7b429;
 }
 
 /*============== End doc_tag_area css =============*/
@@ -3465,7 +3465,7 @@ ul.list-style li:last-child {
   letter-spacing: 5.2px;
   text-transform: uppercase;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 5% 0 1% 0;
   padding: 0;
 }
@@ -3556,7 +3556,10 @@ ul.list-style li:last-child {
   width: 200%;
   right: 0;
   height: 100%;
-  background: #fafcfd;
+  
+  background: linear-gradient(to left,#FFF 10%, #eee 40%);
+  /* background: #eeeeee; 
+  border-right: 1px solid #eee;*/
   position: absolute;
   border-bottom: 1px solid #e5e9eb;
   top: 0;
@@ -3634,10 +3637,10 @@ ul.list-style li:last-child {
   padding: 0;
 }
 .nav-sidebar .nav-item .dropdown_nav li a:hover, .nav-sidebar .nav-item .dropdown_nav li a.active {
-  color: #10b3d6;
+  color: #f7b429;
 }
 .nav-sidebar .nav-item .dropdown_nav li a:hover i, .nav-sidebar .nav-item .dropdown_nav li a.active i {
-  color: #10b3d6;
+  color: #f7b429;
 }
 .nav-sidebar + .nav-sidebar {
   border-top: 1px solid #e5e9eb;
@@ -4526,7 +4529,7 @@ ul.list-style li:last-child {
 }
 .doc_rightsidebar .bootstrap-select > .dropdown-menu .inner .dropdown-menu li a.active, .doc_rightsidebar .bootstrap-select > .dropdown-menu .inner .dropdown-menu li a:hover {
   background: #f6f6f6;
-  color: #10b3d6;
+  color: #f7b429;
 }
 .doc_rightsidebar .bootstrap-select > .dropdown-menu .inner .dropdown-menu li a.active:before, .doc_rightsidebar .bootstrap-select > .dropdown-menu .inner .dropdown-menu li a:hover:before {
   height: 100%;
@@ -4981,7 +4984,7 @@ body:not(.onepage-doc) .body_fixed #font-switcher {
   color: #1d2746;
 }
 .communities-boxes .docly-com-box .docly-com-box-content .title a:hover {
-  color: #10b3d6;
+  color: #f7b429;
 }
 .communities-boxes .docly-com-box .docly-com-box-content .title:hover {
   color: #10b3d6;
@@ -5302,7 +5305,7 @@ body:not(.onepage-doc) .body_fixed #font-switcher {
   color: #1d2746;
 }
 .community-post .post-content .entry-content .post-title a:hover {
-  color: #10b3d6;
+  color: #f7b429;
 }
 .community-post .post-content .entry-content p {
   margin: 0;
@@ -5337,7 +5340,7 @@ body:not(.onepage-doc) .body_fixed #font-switcher {
   margin-right: 10px;
 }
 .community-post .post-meta-wrapper .post-meta-info li a:hover {
-  color: #10b3d6;
+  color: #f7b429;
 }
 .community-post.style-two {
   margin-bottom: 0;
@@ -5424,7 +5427,7 @@ body:not(.onepage-doc) .body_fixed #font-switcher {
   color: #838793;
 }
 .community-post.style-two .meta li a:hover {
-  color: #10b3d6;
+  color: #f7b429;
 }
 .community-post.style-two:hover {
   background: #f7f9fa;
@@ -5584,7 +5587,7 @@ body:not(.onepage-doc) .body_fixed #font-switcher {
   color: #6b707f;
 }
 .shortcode_text ul li a:hover {
-  color: #10b3d6;
+  color: #f7b429;
 }
 .shortcode_text .c_head {
   margin-top: 30px;
@@ -5903,7 +5906,7 @@ body:not(.onepage-doc) .body_fixed #font-switcher {
   pointer-events: none;
 }
 .explanation::after {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   content: "Hey!";
   text-transform: uppercase;
   font-weight: 700;
@@ -6241,7 +6244,7 @@ button.mfp-close {
 .img_pointing_content p {
   font-size: 14px;
   line-height: 22px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #6b707f;
   margin-bottom: 0;
 }
@@ -6882,7 +6885,7 @@ ul.ordered-list li::before {
   color: #fc5bc1;
   font-weight: 700;
   line-height: 55px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .dropcap_content p .r_dropcap {
   background: #13c5bf;
@@ -7169,7 +7172,7 @@ ul.ordered-list li::before {
   font-weight: 500;
 }
 .post-header .support-total-info li a:hover {
-  color: #10b3d6;
+  color: #f7b429;
 }
 .post-header .support-total-info li:not(:last-child) {
   margin-right: 20px;
@@ -7358,7 +7361,7 @@ ul.ordered-list li::before {
 }
 .post-header .category-menu .all-users a:hover, .post-header .category-menu .all-users a:focus {
   background: transparent;
-  color: #1d2746;
+  color: #f7b429;
 }
 .post-header .category-menu .short-by {
   padding: 10px 20px;
@@ -7383,7 +7386,7 @@ ul.ordered-list li::before {
 }
 .post-header .category-menu .short-by a:hover {
   background: transparent;
-  color: #1d2746;
+  color: #f7b429;
 }
 
 ul.forum-titles {
@@ -7413,7 +7416,7 @@ ul.forum-titles .forum-freshness .freshness-box a {
   color: #6b707f;
 }
 ul.forum-titles .forum-freshness .freshness-box a:hover {
-  color: #10b3d6;
+  color: #f7b429;
 }
 ul.forum-titles .forum-freshness .freshness-box .freshness-btm {
   display: flex;
@@ -7597,7 +7600,7 @@ ul.forum-titles .forum-freshness .freshness-box .freshness-btm .bbp-author-avata
 }
 .w_tag_list.style-light li a:hover {
   background: #e1f3f7;
-  color: #10b3d6;
+  color: #f7b429 ;
   box-shadow: none;
 }
 
@@ -7619,7 +7622,7 @@ ul.forum-titles .forum-freshness .freshness-box .freshness-btm .bbp-author-avata
   display: inline-block;
 }
 .usefull-links li a:hover {
-  color: #10b3d6;
+  color: #f7b429 ;
 }
 
 .ticket_categories li {
@@ -7638,7 +7641,7 @@ ul.forum-titles .forum-freshness .freshness-box .freshness-btm .bbp-author-avata
   color: #1d2746;
 }
 .ticket_categories li a:hover {
-  color: #10b3d6;
+  color: #f7b429 ;
 }
 .ticket_categories li .count {
   position: absolute;
@@ -7682,7 +7685,7 @@ ul.forum-titles .forum-freshness .freshness-box .freshness-btm .bbp-author-avata
   font-size: 14px;
 }
 .forum-post-top .forum-post-author .forum-author-meta a:hover {
-  color: #10b3d6;
+  color: #f7b429 ;
 }
 .forum-post-top .forum-post-author .forum-author-meta .author-badge svg {
   margin-top: -5px;
@@ -7774,7 +7777,7 @@ ul.forum-titles .forum-freshness .freshness-box .freshness-btm .bbp-author-avata
   color: #838793;
 }
 .forum-post-content .forum-post-btm .taxonomy a:hover {
-  color: #10b3d6;
+  color: #f7b429;
 }
 .forum-post-content .forum-post-btm .taxonomy a + a {
   padding-right: 2px;
@@ -8635,10 +8638,10 @@ blockquote .author {
   padding-left: 10px;
 }
 .categorie_list li a:hover {
-  color: #10b3d6;
+  color: #f7b429;
 }
 .categorie_list li a:hover:before {
-  background: #10b3d6;
+  background: #f7b429;
 }
 .categorie_list li + li {
   margin-top: 8px;
@@ -8878,7 +8881,7 @@ blockquote .author {
   font-size: 14px;
   color: #1d2746;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   height: 60px;
   line-height: 60px;
   padding: 2px 30px 0;
@@ -8886,19 +8889,19 @@ blockquote .author {
 }
 .login_form .form-group .form-control.placeholder {
   color: #878b99;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .login_form .form-group .form-control:-moz-placeholder {
   color: #878b99;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .login_form .form-group .form-control::-moz-placeholder {
   color: #878b99;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .login_form .form-group .form-control::-webkit-input-placeholder {
   color: #878b99;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .login_form .form-group .form-control:focus {
   box-shadow: 0 20px 30px 0 rgba(4, 73, 89, 0.1);
@@ -9501,7 +9504,7 @@ blockquote .author {
   font-size: 16px;
 }
 .f_widget.link_widget .link_list li a:hover {
-  color: #10b3d6;
+  color: #f7b429;
 }
 .f_widget.link_widget .link_list li + li {
   margin-top: 15px;

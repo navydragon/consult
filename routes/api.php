@@ -20,6 +20,8 @@ Route::get('/categories', 'CategoryController@get_categories');
 Route::get('/categories/{category}', 'CategoryController@get_category');
 
 Route::get('/materials', 'MaterialController@get_materials');
+Route::get('/material_types', 'MaterialTypeController@get_material_types');
+
 
 Route::get('/get_last_update', 'MaterialController@get_last_update');
 

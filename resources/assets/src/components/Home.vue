@@ -3,39 +3,39 @@
       <article class="documentation_body" id="documentation">
           <div class="shortcode_title">
               <h1>База знаний</h1>
-              <p><span>Добро пожаловать в базу знаний !</span> Воспользуйтесь меня слева для доступа к следующим функциям:</p>
+              <p><span>Добро пожаловать в базу знаний !</span>Воспользуйтесь меню слева для доступа к следующим функциям:</p>
           </div>
           <div class="row">
               <div class="col-lg-6 col-sm-6">
                   <div class="media documentation_item">
                       <div class="icon">
-                          <img src="img/side-nav/terminals.png" alt="">
+                          <img src="img/main/3.png" alt="">
                       </div>
                       <div class="media-body">
                           <a href="#">
                               <h5>Виды деятельности</h5>
                           </a>
-                          <p>Материалы в разрезе различных видов деятельности.</p>
+                          <p>Материалы по видам деятельности</p>
                       </div>
                   </div>
               </div>
               <div class="col-lg-6 col-sm-6">
                   <div class="media documentation_item">
                       <div class="icon">
-                          <img src="img/home_one/icon/folder.png" alt="">
+                          <img src="img/main/4.png" alt="">
                       </div>
                       <div class="media-body">
                           <a href="#">
                               <h5>Нормативно-правовые акты</h5>
                           </a>
-                          <p>Материалы, в разрезе различных нормативно-правовых актов.</p>
+                          <p>Актуальные нормативно-правовые акты по вопросам дорожной деятельности</p>
                       </div>
                   </div>
               </div>
               <div class="col-lg-6 col-sm-6">
                   <div class="media documentation_item">
                       <div class="icon">
-                          <img src="img/home_one/book.png" alt="">
+                          <img src="img/main/2.png" alt="">
                       </div>
                       <div class="media-body">
                           <a href="#">
@@ -48,7 +48,7 @@
               <div class="col-lg-6 col-sm-6">
                   <div class="media documentation_item">
                       <div class="icon">
-                          <img src="img/home_one/chat.png" alt="">
+                          <img src="img/main/5.png" alt="">
                       </div>
                       <div class="media-body">
                           <a href="#">
@@ -74,7 +74,7 @@
               <div class="col-lg-6 col-sm-6">
                   <div class="media documentation_item">
                       <div class="icon">
-                          <img src="img/home_two/Channel.png" alt="">
+                          <img src="img/main/6.png" alt="">
                       </div>
                       <div class="media-body">
                           <a href="#">

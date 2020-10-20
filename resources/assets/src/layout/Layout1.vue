@@ -300,7 +300,7 @@
                             </span>
                         </span>
                     </button>
-                    <a class="sticky_logo" href="index.html">
+                    <a class="sticky_logo" href="#">
                        <!-- <img src="img/logo-w.png" srcset="img/logo-w2x.png 2x" alt="logo">
                         <img src="img/logo.png" srcset="img/logo-2x.png 2x" alt="logo">-->
                         <h5 style="color:white;">База знаний</h5>
@@ -388,6 +388,7 @@
                     <div class="col-sm-7">
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="https://educationbkad.emiit.ru" style="color:white;">Образовательный портал дорожного хозяйства</a></li>
                                 <li class="breadcrumb-item" style="color:white;"><a href="/" style="color:white;">Консультационный центр</a></li>
                                 <li class="breadcrumb-item active" style="color:white;" aria-current="page">База знаний</li>
                             </ol>
@@ -403,7 +404,7 @@
             <div class="overlay_bg"></div>
             <div class="container custom_container">
                 <div class="row">
-                  <div class="col-lg-3 doc_mobile_menu display_none">
+                  <div class="col-lg-3 doc_mobile_menu display_none" >
                     <app-layout-sidenav />
                   </div>
                   <div class="col-lg-9 col-md-9">
