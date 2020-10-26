@@ -39,5 +39,9 @@ class MaterialTypeSeeder extends Seeder
             'name' => 'Файл',
             'icon_url' => 'img/mt/document.png'
         ]);
+        DB::table('material_types')->insert([
+            'name' => 'Анализ изменений в законодательстве',
+            'icon_url' => 'img/mt/document.png'
+        ]);
     }
 }

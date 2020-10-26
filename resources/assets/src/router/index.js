@@ -34,6 +34,11 @@ const router = new Router({
       meta: {auth: false}
     },
     {
+      path: 'npas_analysis',
+      component: () => import('@/components/NpasAnalysis'),
+      meta: {auth: false}
+    },
+    {
       path: '/categories/:category',
       component: () => import('@/components/Category'),
     },

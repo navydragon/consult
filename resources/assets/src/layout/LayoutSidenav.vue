@@ -19,6 +19,9 @@
                   <router-link to="/npas" class="nav-link" onmouseover="this.style.color='#f7b429';" onmouseout="this.style.color='#1d2746';"><img src="img/side-nav/4.png" alt="">Нормативно-правовые акты</router-link>
               </li>
               <li class="nav-item">
+                  <router-link to="/npas_analysis" class="nav-link" onmouseover="this.style.color='#f7b429';" onmouseout="this.style.color='#1d2746';"><img src="img/side-nav/4.png" alt="">Анализ изменений <br>в законодательстве</router-link>
+              </li>
+              <li class="nav-item">
                    <router-link to="/new_question" class="nav-link" onmouseover="this.style.color='#f7b429';" onmouseout="this.style.color='#1d2746';"><img src="img/side-nav/5.png" alt="">Задать вопрос</router-link>
               </li>
               <!--

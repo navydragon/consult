@@ -11,7 +11,21 @@
               <p>{{npa.description}}</p>
               <hr>
               <h4>Материалы</h4>
-              <p><em>Пока не добавлено материалов, относящихся к данному нормативно-правовому акту.</em></p>
+              <p v-if="npa.materials.length==0"><em>Пока не добавлено материалов, относящихся к данному нормативно-правовому акту.</em></p>
+               <div v-for="material in npa.materials" :key="'mat'+material.id"  class="community-post wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                  <div class="post-content">
+                      <div class="author-avatar">
+                          <b-img :src="material.type.icon_url" alt="Circle image"></b-img>
+                      </div>
+                      <div class="entry-content">
+                          <h3 class="post-title" >{{material.name}}</h3>
+                          <p>{{material.type.name}}</p>
+                      </div>
+                  </div>
+                  <div class="post-meta-wrapper">
+                    <a target="_blank" :href="encodeURI(material.url)" class="doc_border_btn btn_small_two ml-2" >Просмотреть</a>
+                  </div>
+              </div>
           </div>
           <div class="row">
              
@@ -34,7 +48,9 @@ export default {
   data() 
   { 
     return{
-    npa:{}
+    npa:{
+      materials:[]
+    }
     }
   },
   mounted()

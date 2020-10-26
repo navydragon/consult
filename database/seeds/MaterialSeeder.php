@@ -311,6 +311,18 @@ class MaterialSeeder extends Seeder
             'url' => 'https://drive.google.com/file/d/1hoJdOxaZ2lJf649TPnDYq3jbRZuGfUd7/view?usp=sharing',
             'created_at' => date("Y-m-d H:i:s")
         ]); //47
+        DB::table('materials')->insert([
+            'name' => 'Мнение ФАУ «РОСДОРНИИ» о перечне случаев заключения контрактов жизненного цикла',
+            'type_id' => 8,
+            'url' => 'https://drive.google.com/file/d/1e1kkAPDerM9EHSW25TXvWOMqcFZk4iYS/view?usp=sharing',
+            'created_at' => date("Y-m-d H:i:s")
+        ]); // 48
+        DB::table('materials')->insert([
+            'name' => 'Анализ основных положений Федерального закона от 20.07.2020 № 239-ФЗ ',
+            'type_id' => 8,
+            'url' => 'https://drive.google.com/file/d/1PY9eKcmqtucSe1bw_-nYZGYrvWgHdZJx/view?usp=sharing',
+            'created_at' => date("Y-m-d H:i:s")
+        ]); //49
         /*
         DB::table('materials')->insert([
             'name' => '',

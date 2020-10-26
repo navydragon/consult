@@ -15,6 +15,11 @@ class NpaController extends Controller
 
     public function get_npa(Npa $npa)
     {
+        $npa->materials = $npa->materials;
+        foreach ($npa->materials as $material)
+        {
+            $material->type = $material->type;
+        }
         return $npa;
     }
 }
